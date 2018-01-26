@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.app.rakez.winnersprit.question.QuestionActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bookmark_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/bookmark_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bookmark_toolbar_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:padding="@dimen/qa_padding"
+            android:text="This is sample question"
+            android:scrollbars="vertical"
+            android:textSize="15dp"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:id="@+id/bookmark_question_TV"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="34dp"
+            android:id="@+id/bookmark_answer_RV"
+            android:layout_below="@+id/bookmark_question_TV"
+            android:padding="@dimen/qa_padding"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bookmark_question_footer_layout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="NEXT"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#fff"
+                android:id="@+id/bookmark_question_next"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/bookmark_question_next"
+                android:id="@+id/bookmark_divider_next"
+                android:background="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PREVIOUS"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#fff"
+                android:id="@+id/bookmark_question_previous"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/bookmark_question_previous"
+                android:id="@+id/bookmark_divider_previous"
+                android:background="#fff"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

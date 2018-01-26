@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_result">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You've Got"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="15/20"
+            android:id="@+id/result_score"
+            android:textColor="@color/score_color"
+            android:textSize="35dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct Questions"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(7 skipped)"
+            android:id="@+id/result_skipped"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:textColor="@color/default_text_color"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/dialog_share_to_fb"
+            android:textSize="12dp"
+            android:background="@drawable/background_share_fb"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="Share to Facebook"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/default_text_color"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:23 sec"
+        android:textSize="18dp"
+        android:id="@+id/result_avg_time"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Average)"
+        android:textColor="@color/default_text_color"
+        android:textAlignment="center"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Pace"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/middle_color"
+        android:id="@+id/result_review"
+        android:background="@drawable/background_review"
+        android:text="Review Answers"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/background_retry"
+        android:text="Retey"
+        android:id="@+id/result_retry"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/background_retry"
+        android:text="Next Level"
+        android:textColor="@color/white"
+        android:id="@+id/result_next_level"
+        android:visibility="gone"
+        android:textAlignment="center"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64314507872",
+    "firebase_url": "https://exampreparationnetwork.firebaseio.com",
+    "project_id": "exampreparationnetwork",
+    "storage_bucket": "exampreparationnetwork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64314507872:android:219221cece7853c6",
+        "android_client_info": {
+          "package_name": "com.n1technology.app.exampreparationnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64314507872-5njoqae97udfl490q8es0qe2pfn4td8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.n1technology.app.exampreparationnetwork",
+            "certificate_hash": "cd6679c580f94362ffc233ca18c178f2f51ea587"
+          }
+        },
+        {
+          "client_id": "64314507872-vmfop4lplq8gm2sis0t45vc3sc1gvr8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1OhLPFArhm9CfsgpWJrtpVSN_EB9h7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64314507872-vmfop4lplq8gm2sis0t45vc3sc1gvr8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

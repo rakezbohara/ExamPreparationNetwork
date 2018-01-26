@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">E P N</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="facebook_login">Sign in with facebook</string>
+    <string name="google_login">Sign in with google</string>
+
+    <string name="facebook_app_id">371226906681944</string>
+    <string name="login_with_winnersprit"><u><b>Login</b></u> using Winner Sprit</string>
+    <string name="register_with_winnersprit">Not Registered yet? <u><b>Register Now</b></u></string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="app_login">LOGIN</string>
+    <string name="app_register">REGISTER</string>
+    <string name="title_activity_course_selector">CourseSelector</string>
+    <string name="title_activity_main_container">EPN</string>
+
+    <string-array name="notification_quotes">
+        <item>Whether you think you can or you think you can’t, you’re right.</item>
+        <item>Perfection is not attainable, but if we chase perfection we can catch excellence.</item>
+        <item>Believe you can and you’re halfway there.</item>
+        <item>Strive not to be a success, but rather to be of value.</item>
+        <item>The question isn’t who is going to let me; it’s who is going to stop me.</item>
+        <item>Nothing will work unless you do.</item>
+        <item>Do not wait, the time will never be 'just right'</item>
+        <item>Aim for the moon. If you miss, you may hit the star</item>
+        <item>Don’t watch the clock; do what it does. Keep going.</item>
+        <item>We aim above the mark to hit the mark.</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Ad ID-->
+    <string name="ad_mob_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_add_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_add_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

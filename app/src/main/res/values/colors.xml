@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33b5e5</color>
+    <color name="colorPrimaryDark">#2d9bc4</color>
+    <color name="colorAccent">#dd4b39</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="google_plus">#dd4b39</color>
+    <color name="facebook">#416BC1</color>
+    <color name="text_background"></color>
+    <color name="text_color">#fff</color>
+    <color name="login_button">#dd4b39</color>
+
+    <color name="rv1">#F44336</color>
+    <color name="rv2">#3F51B5</color>
+    <color name="rv3">#9C27B0</color>
+    <color name="rv4">#FFC107</color>
+    <color name="rv5">#4CAF50</color>
+
+    <color name="score_color">#FFC107</color>
+    <color name="score_color_back">#4dffc107</color>
+
+
+    //Level colors
+    <color name="level_active">#dd4b39</color>
+    <color name="level_inactive">#d6958d</color>
+
+    //questio color
+    <color name="light_black">#808080</color>
+    <color name="answer_true">#4CAF50</color>
+    <color name="answer_true_back">#414caf50</color>
+    <color name="answer_false">#F44336</color>
+    <color name="answer_false_back">#41f44336</color>
+    <color name="default_text_color">#808080</color>
+    <color name="transparent">#0033b5e5</color>
+    <color name="white">#fff</color>
+
+    <color name="fab1">#f39d12</color>
+    <color name="fab2">#1ad88e</color>
+
+    <color name="middle_color">#016158</color>
+    <color name="top_color">#012d27</color>
+
+</resources>

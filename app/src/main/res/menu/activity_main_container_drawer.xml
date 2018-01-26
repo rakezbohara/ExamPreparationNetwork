@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_level_4"
+            android:title="Quiz"/>
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_leaderboard_black"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_theory"
+            android:icon="@drawable/ic_theory_black"
+            android:title="Theory Practice" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/ic_level_6"
+            android:title="Syllabus" />
+
+        <item
+            android:id="@+id/nav_switch_course"
+            android:icon="@drawable/ic_switch_course"
+            android:title="Switch Course" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_studyic_level_6"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_bookmark"
+            android:title="Bookmark Questions" />
+
+            <item
+                android:id="@+id/nav_faq"
+                android:title="FAQ"
+                android:icon="@drawable/ic_faq"/>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+    </group>
+
+</menu>

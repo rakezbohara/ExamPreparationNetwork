@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/item_course_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#fff"
+        android:id="@+id/item_course_CV"
+        android:elevation="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textSize="25dp"
+                android:id="@+id/item_course_big_letter"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:layout_marginRight="75dp"
+        android:scrollHorizontally="true"
+        android:id="@+id/item_course_course_name"
+        android:layout_toRightOf="@+id/item_course_CV"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:text="Lok Sewa Preparation for Kharidar"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:text="15 Levels"
+        android:id="@+id/item_course_max_level"
+        android:textColor="@color/answer_true"
+        android:background="@drawable/background_max_level"/>
+
+
+</RelativeLayout>

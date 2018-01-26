@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_term"
+        android:orderInCategory="100"
+        android:title="Terms and Conditions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_disclaimer"
+        android:orderInCategory="101"
+        android:title="Disclaimer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_privacy"
+        android:orderInCategory="102"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_rate"
+        android:orderInCategory="103"
+        android:title="Rate Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="104"
+        android:title="Share This App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_advertise"
+        android:orderInCategory="105"
+        android:title="Advertise With Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_feedback"
+        android:orderInCategory="106"
+        android:title="Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="107"
+        android:title="Setting"
+        app:showAsAction="never" />
+
+</menu>

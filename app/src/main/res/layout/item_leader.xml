@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="5dp"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:cardElevation="5dp"
+        android:padding="2.5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="2dp"
+                android:id="@+id/leader_rank"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/leader_image"
+                android:layout_toRightOf="@+id/leader_rank"
+                android:src="@drawable/ic_user_image"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:maxWidth="210dp"
+                android:text="Amrit Gurung"
+                android:textSize="16dp"
+                android:id="@+id/leader_name"
+                android:layout_toRightOf="@+id/leader_image"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="210"
+                android:textStyle="bold"
+                android:layout_marginRight="2dp"
+                android:id="@+id/leader_score"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:textSize="25dp"
+                android:background="@drawable/background_score"
+                android:textColor="@color/score_color"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
